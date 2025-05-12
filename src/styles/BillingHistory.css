@@ -1,0 +1,88 @@
+.billing-history-container {
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fafb;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .billing-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .billing-table th,
+  .billing-table td {
+    padding: 0.85rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .billing-table th {
+    background-color: #f3f4f6;
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .billing-table tbody tr:hover {
+    background-color: #f9f9f9;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .bill-id {
+    font-family: monospace;
+    color: #6b7280;
+  }
+  
+  .amount-paid {
+    font-weight: bold;
+    color: #10b981;
+  }
+  
+  .btn {
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin: 0 0.25rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn.update {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .btn.update:hover {
+    background-color: #2563eb;
+  }
+  
+  .btn.delete {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .btn.delete:hover {
+    background-color: #dc2626;
+  }
+  
+  .no-data {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #6b7280;
+    margin-top: 2rem;
+  }
+  
